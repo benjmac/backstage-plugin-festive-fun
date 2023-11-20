@@ -9,5 +9,9 @@ snowflake.src = snowflake1;
 const images = [snowflake];
 
 export const WinterWonderland = () => {
-  return <Snowfall snowflakeCount={200} images={images} radius={[0.5, 12.0]} />;
+  return (
+    <div data-testid="winter">
+      <Snowfall snowflakeCount={200} images={images} radius={[0.5, 12.0]} />;
+    </div>
+  );
 };

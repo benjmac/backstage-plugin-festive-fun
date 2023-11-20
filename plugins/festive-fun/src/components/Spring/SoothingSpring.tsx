@@ -9,5 +9,9 @@ import { DecendingItems } from '../DecendingItems';
 const petals = [petal1, petal2, petal3, petal4];
 
 export const SoothingSpring = () => {
-  return <DecendingItems itemImages={petals} />;
+  return (
+    <div data-testid="spring">
+      <DecendingItems data-testid="spring" itemImages={petals} />;
+    </div>
+  );
 };

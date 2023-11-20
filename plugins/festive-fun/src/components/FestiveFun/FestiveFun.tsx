@@ -25,7 +25,7 @@ export const FestiveFun = ({
   }
 
   return showFestivity ? (
-    <div className={styles.container}>
+    <div data-testid="festive-fun" className={styles.container}>
       {handleFestivityType({ festivity, festivitySelector })}
     </div>
   ) : null;
