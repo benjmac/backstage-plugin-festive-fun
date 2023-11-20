@@ -8,7 +8,7 @@ _This plugin was created through the Backstage CLI_
 
 Looking to bring a bit of festivity to your Backstage instance? We'll you've found the plugin. Festive fun currently delivers all the seasons via animations to Backstage to make the app just a little more fun and engaging. Based upon the season you're in, it will render a festive visual to match. Custom festivity selector can be passed in as well to allow teams to modify which theme should render and when!
 
-**_Note_**: This is all being rendered behind the core app at the app at z-index of -1. Allowing for no conflicts of clicks and flows seamlessly behind any components rendered at z-index of 0 or greater.
+**_Note_**: This is all being rendered behind the core app at the z-index of -1. Allowing for no conflicts of clicks and flows seamlessly behind any components rendered at z-index of 0 or greater.
 
 ### Spring
 

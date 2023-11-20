@@ -6,7 +6,7 @@ export const SummerVibes = () => {
   const styles = useStyles();
 
   return (
-    <div className={styles.summerContainer}>
+    <div data-testid="summer" className={styles.summerContainer}>
       <div style={{ flex: 1 }} />
       <Wave mask="url(#mask)" fill="#1277b0">
         <defs>

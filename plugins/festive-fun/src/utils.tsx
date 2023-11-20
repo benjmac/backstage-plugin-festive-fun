@@ -5,7 +5,7 @@ import { AUTO, SPRING, SUMMER, FALL, WINTER, Festivity } from './types';
 import { SoothingSpring } from './components/Spring';
 import { SummerVibes } from './components/Summer';
 
-const defaultFestivitySelector = (): Festivity => {
+export const defaultFestivitySelector = (): Festivity => {
   const month = new Date().getMonth() + 1;
 
   if (month >= 3 && month <= 5) {
