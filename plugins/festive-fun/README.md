@@ -14,25 +14,25 @@ Looking to bring a bit of festivity to your Backstage instance? We'll you've fou
 
 Soothing spring animates flower petals falling as growth begins
 
-![Spring](./docs/spring.png)
+![Spring](../../docs/spring.png)
 
 ### Summer
 
 Summer vibes animates swelling waves as seen from the beach
 
-![Summer](./docs/summer.png)
+![Summer](../../docs/summer.png)
 
 ### Fall
 
 Festive fall animates the lovely fall foliage descending to the ground
 
-![Fall](./docs/fall.png)
+![Fall](../../docs/fall.png)
 
 ### Winter
 
 Winter wonderland animates a relaxing snow storm
 
-![Winter](./docs/winter.png)
+![Winter](../../docs/winter.png)
 
 ## Getting started
 
