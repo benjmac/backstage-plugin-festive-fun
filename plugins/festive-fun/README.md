@@ -1,6 +1,6 @@
-# festive-fun
+# backstage-plugin-festive-fun
 
-Welcome to the festive-fun plugin!
+Welcome to the backstage-plugin-festive-fun plugin!
 
 _This plugin was created through the Backstage CLI_
 
