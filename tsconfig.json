@@ -1,0 +1,13 @@
+{
+  "extends": "@backstage/cli/config/tsconfig.json",
+  "include": ["plugins/*/src", "plugins/*/dev", "plugins/*/src/*.d.ts"],
+  "exclude": ["node_modules", "plugins/*/coverage"],
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist-types",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "target": "es6"
+  }
+}
