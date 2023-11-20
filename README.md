@@ -20,19 +20,19 @@ Soothing spring animates flower petals falling as growth begins
 
 Summer vibes animates swelling waves as seen from the beach
 
-![Summer](./plugins/festive-fun/summer.png)
+![Summer](./plugins/festive-fun/docs/summer.png)
 
 ### Fall
 
 Festive fall animates the lovely fall foliage descending to the ground
 
-![Fall](./plugins/festive-fun/fall.png)
+![Fall](./plugins/festive-fun/docs/fall.png)
 
 ### Winter
 
 Winter wonderland animates a relaxing snow storm
 
-![Winter](./plugins/festive-fun/winter.png)
+![Winter](./plugins/festive-fun/docs/winter.png)
 
 ## Getting started
 
