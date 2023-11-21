@@ -14,12 +14,14 @@ export const useStyles = makeStyles({
   },
   loader: {
     textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
   },
   itemContainer: {
-    display: 'inline-block',
     width: '80px',
     height: '80px',
-    margin: '-280px 40px 54px  -34px',
+    margin: '-120px 50px 54px  -34px', // Margin top needs to me more than the size of item, currently 80px
     animation: '$itemLoader linear infinite',
     animationDuration: '10s',
 

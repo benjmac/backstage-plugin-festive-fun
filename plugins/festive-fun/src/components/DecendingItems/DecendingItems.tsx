@@ -19,13 +19,13 @@ export const DecendingItems = ({
         const itemIndx = indx + 1;
         const itemNum = itemIndx % len === 0 ? len : itemIndx % len;
         return (
-          <span key={indx} className={styles.itemContainer}>
+          <div key={indx} className={styles.itemContainer}>
             <img
               className={styles.itemImage}
               src={images[itemNum]}
               alt={`decending-item-${itemNum}`}
             />
-          </span>
+          </div>
         );
       })}
     </div>
