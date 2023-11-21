@@ -26,7 +26,7 @@ Summer vibes animates swelling waves as seen from the beach
 
 Festive fall animates the lovely fall foliage descending to the ground
 
-![Fall](./docs/fall.png)
+https://github.com/benjmac/backstage-plugin-festive-fun/assets/25201407/f4f5becf-0045-47e1-af24-64a22d64f182
 
 ### Winter
 
