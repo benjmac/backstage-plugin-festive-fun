@@ -14,25 +14,25 @@ Looking to bring a bit of festivity to your Backstage instance? We'll you've fou
 
 Soothing spring animates flower petals falling as growth begins
 
-![Spring](./docs/spring.png)
+https://github.com/benjmac/backstage-plugin-festive-fun/assets/25201407/2b5441c5-e3fb-460e-a053-3a6d127642ab
 
 ### Summer
 
 Summer vibes animates swelling waves as seen from the beach
 
-![Summer](./docs/summer.png)
+https://github.com/benjmac/backstage-plugin-festive-fun/assets/25201407/59cc013f-17cd-49cd-af00-6e5b8d516bf2
 
 ### Fall
 
 Festive fall animates the lovely fall foliage descending to the ground
 
-https://github.com/benjmac/backstage-plugin-festive-fun/assets/25201407/f4f5becf-0045-47e1-af24-64a22d64f182
+https://github.com/benjmac/backstage-plugin-festive-fun/assets/25201407/1ad167c6-5be1-41a4-ae40-317373dde822
 
 ### Winter
 
 Winter wonderland animates a relaxing snow storm
 
-![Winter](./docs/winter.png)
+https://github.com/benjmac/backstage-plugin-festive-fun/assets/25201407/159d332f-452d-47a5-abb5-93b057057a89
 
 ## Getting started
 
