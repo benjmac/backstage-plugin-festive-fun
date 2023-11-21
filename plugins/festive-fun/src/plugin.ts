@@ -1,6 +1,6 @@
 import {
+  createComponentExtension,
   createPlugin,
-  createRoutableExtension,
 } from '@backstage/core-plugin-api';
 
 import { rootRouteRef } from './routes';
@@ -14,9 +14,10 @@ export const festiveFunPlugin = createPlugin({
 });
 
 export const FestiveFun = festiveFunPlugin.provide(
-  createRoutableExtension({
+  createComponentExtension({
     name: 'FestiveFun',
-    component: () => import('./components/FestiveFun').then(m => m.FestiveFun),
-    mountPoint: rootRouteRef,
+    component: {
+      lazy: () => import('./components/FestiveFun').then(m => m.FestiveFun),
+    },
   }),
 );
