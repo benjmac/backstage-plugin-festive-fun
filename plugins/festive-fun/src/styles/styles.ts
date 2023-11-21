@@ -5,12 +5,11 @@ export const useStyles = makeStyles({
     top: '0px',
     width: '100%',
     height: '100%',
-    minHeight: '800px',
     position: 'absolute',
     left: '0%',
     background: 'transparent',
     backgroundSize: 'cover',
-    overflow: 'auto',
+    overflow: 'hidden',
     zIndex: -1,
   },
   loader: {
