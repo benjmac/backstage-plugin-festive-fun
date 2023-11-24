@@ -21,3 +21,13 @@ export const FestiveFun = festiveFunPlugin.provide(
     },
   }),
 );
+
+export const FestiveFunSettings = festiveFunPlugin.provide(
+  createComponentExtension({
+    name: 'FestiveFunSettings',
+    component: {
+      lazy: () =>
+        import('./components/Settings').then(m => m.FestiveFunSettings),
+    },
+  }),
+);
