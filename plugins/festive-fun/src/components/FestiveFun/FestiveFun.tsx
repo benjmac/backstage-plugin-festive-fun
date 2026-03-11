@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { handleFestivityType } from '../../utils';
 import { featureFlagsApiRef, useApi } from '@backstage/core-plugin-api';
 import { useStyles } from '../../styles/styles';

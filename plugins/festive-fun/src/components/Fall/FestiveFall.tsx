@@ -1,5 +1,3 @@
-import React from 'react';
-
 import leaf1 from '../../assets/leaf1.png';
 import leaf2 from '../../assets/leaf2.png';
 import leaf3 from '../../assets/leaf3.png';

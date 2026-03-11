@@ -1,5 +1,3 @@
-import React from 'react';
-
 import petal1 from '../../assets/petal1.png';
 import petal2 from '../../assets/petal2.png';
 import petal3 from '../../assets/petal3.png';

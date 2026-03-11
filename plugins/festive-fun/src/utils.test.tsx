@@ -1,4 +1,4 @@
-import React from 'react';
+import { type ReactElement } from 'react';
 import { Festivity } from './types';
 import { defaultFestivitySelector, handleFestivityType } from './utils';
 import { renderInTestApp } from '@backstage/test-utils';
@@ -44,7 +44,7 @@ describe('utils', () => {
         handleFestivityType({
           festivity,
           festivitySelector,
-        }) as React.ReactElement,
+        }) as ReactElement,
       );
 
       expect(await screen.findByTestId('spring')).toBeInTheDocument();
@@ -58,7 +58,7 @@ describe('utils', () => {
         handleFestivityType({
           festivity,
           festivitySelector,
-        }) as React.ReactElement,
+        }) as ReactElement,
       );
 
       expect(await screen.findByTestId('summer')).toBeInTheDocument();
@@ -72,7 +72,7 @@ describe('utils', () => {
         handleFestivityType({
           festivity,
           festivitySelector,
-        }) as React.ReactElement,
+        }) as ReactElement,
       );
 
       expect(await screen.findByTestId('fall')).toBeInTheDocument();
@@ -86,7 +86,7 @@ describe('utils', () => {
         handleFestivityType({
           festivity,
           festivitySelector,
-        }) as React.ReactElement,
+        }) as ReactElement,
       );
 
       expect(await screen.findByTestId('winter')).toBeInTheDocument();
@@ -100,7 +100,7 @@ describe('utils', () => {
         handleFestivityType({
           festivity,
           festivitySelector,
-        }) as React.ReactElement,
+        }) as ReactElement,
       );
 
       expect(container).toBeEmptyDOMElement();
@@ -114,7 +114,7 @@ describe('utils', () => {
         handleFestivityType({
           festivity,
           festivitySelector,
-        }) as React.ReactElement,
+        }) as ReactElement,
       );
 
       expect(festivitySelector).toHaveBeenCalled();

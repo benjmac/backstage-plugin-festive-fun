@@ -1,4 +1,3 @@
-import React from 'react';
 import Snowfall from 'react-snowfall';
 import snowflake1 from '../../assets/snowflake1.png';
 

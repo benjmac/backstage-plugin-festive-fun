@@ -3,7 +3,7 @@
   "include": ["plugins/*/src", "plugins/*/dev", "plugins/*/src/*.d.ts"],
   "exclude": ["node_modules", "plugins/*/coverage"],
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "outDir": "dist-types",
     "rootDir": ".",
     "esModuleInterop": true,

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FestiveFall } from './components/Fall';
 import { WinterWonderland } from './components/Winter';
 import { AUTO, SPRING, SUMMER, FALL, WINTER, Festivity } from './types';

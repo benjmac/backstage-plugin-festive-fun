@@ -1,4 +1,3 @@
-import React from 'react';
 import Wave from 'react-wavify';
 import { useStyles } from '../../styles/styles';
 
